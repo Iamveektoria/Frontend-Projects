@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Contact Me</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header>
+    <h1 class="logo">&lt; About Me /&gt;</h1>
+    
+    <nav>
+      <ul class="nav_links">
+        <li >
+          <a href="index.html">About Me</a>
+        </li>
+
+        <li>
+          <a href="contactPage.html">Contact Me</a>
+        </li>
+
+        <li>
+           <a href="registerPage.html">Register</a>
+        </li>
+
+        <li>
+          <a href="loginPage.html">Login</a>
+        </li>
+
+        <li>
+          <a href="calculatorPage.html">Calculator</a>
+        </li>
+      </ul>   
+        
+    </nav>
+  </header>
+
+  <main style="margin-left: 20px;">
+    <form action="#">
+      
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Please fill in this form to contact me professionally.</p>
+        <hr>
+        
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter your name" name="name" 
+        id="name" required> 
+
+        <label for="Email"><b>Email</b></label>
+        <input type="email" placeholder="Enter your email" name="email" id="email" 
+        required>
+
+        <label for="comment"><b>Message</b></label>
+        <textarea rows="5" cols="50" name="comment" form="usrform" placeholder="Enter text here..."></textarea>
+
+        <label for="priority"><b>Priority:</b></label>
+          <select name="priority" id="priority">
+            <option value="work">Work/Projects</option>
+            <option value="friendship">Friendship</option>
+            <option value="complaints">Complaints</option>
+            
+          </select>
+
+        <button type="submit" class="btn">Contact Me</button>
+
+        <div class="decision"" >
+         <p>Don't have an account? <a href="registerPage.html">Register</a>.</p>
+         <p>Already have an account? <a href="loginPage.html">Sign in</a>.</p>
+        </div>
+        
+      </div>
+      
+    </form>
+  </main>
+  
+  <footer>
+   <div class="footer">
+    <h3> Iamveektoria </h3>
+    <p>I am open to interesting discussions or projects/opportunities in the web2 
+       or web3 space.<br> Also, feel free to reach out to me through any of my social 
+       media handles below.
+    </p>
+    <div>
+      <a href="https://www.linkedin.com/in/victoria-enebeli-78a4841a1/">
+        <img src="images/linkedin.png" width="30" height="30" />
+      </a>
+      <a href="https://twitter.com/iamveektoria">
+        <img src="images/twitter.jpg" width="30" height="30"" />
+      </a>
+      <a href="mailto:enebelivicki@gmail.com">
+        <img src="images/gmail.png" width="30" height="30"" />
+      </a>
+      <a href="https://medium.com/@enebelivicki">
+         <img src="images/medium.png" width="30" height="30"" />
+      </a>
+      <br><br><br>
+    </div>
+     
+   </div>
+
+      <table width="100%" class="table">
+      <tr>
+        <td>
+          <p class="copy">Copyright &copy;2022 Iamveektoria</p>
+        </td>
+
+        <td>
+          <span>
+          <nav>
+            <a href="contactPage.html">Contact Me</a>
+            <a href="registerPage.html">Register</a>
+            <a href="loginPage.html">Login</a>
+            <a href="index.html">Home</a>
+            <a href="calculatorPage.html">Calculator</a>
+          </nav>
+        </span>
+        </td>
+      </tr>
+    </table>
+     
+    </div>
+    
+  </footer>
+
+
+
+
+  
+ 
+  <script src="script.js"></script>
+</body>
+
+</html>

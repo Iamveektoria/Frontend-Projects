@@ -1,0 +1,192 @@
+html, body {
+  min-height: 100%;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.calctable{
+  border:1px solid black;
+}
+
+td{
+  text-align: center;
+}
+
+h1,nav{
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+span p, span nav{
+  display: inline-block;
+}
+
+.intro {
+  font-size: 35px;
+  width: 40%;
+  height: 100px;
+  margin-left: 30%;
+}
+
+nav{
+  float: right;
+}
+
+.copy{
+  float: left;
+}
+
+h2{
+  font-family: 'Times New Roman', serif;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+span nav{
+  margin-right: 15px;
+}
+.container, .mypic{
+  display: inline-block;
+}
+.container1{
+  width:40%;
+  margin-top: 200px;
+  margin-bottom: 150px;
+  margin-left: 50px;
+}
+.mypic{
+  float:right;
+  margin-top: 100px;
+  margin-right: 40px;
+}
+.one{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.grid-container {
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: #e6e6fa;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+}
+
+.footer{
+  text-align: center;
+  background-color: #45a049;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.btn {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.table{
+  background-color: #C0C0C0;
+}
+
+
+
+h3{
+  margin-top: 20px;
+}
+
+/* navmenu */
+
+
+li, a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: #45a049;
+}
+
+.logo{
+  cursor: pointer;
+  margin: -120px;
+}
+
+.nav_links li{
+  display:inline-block;
+  padding: 0px;
+  margin-left: 50px;
+}
+
+.nav_links li a{
+  transition: aall 0.3s ease 0s;
+}
+
+.nav_link li a:hover{
+  color: red;
+}
+
+button{
+ background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 50px 2px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left: 20px;
+}
+
+button:hover{
+  background-color: #3e8e41;
+  color: white;
+}
